@@ -16,7 +16,7 @@ adjust things in the space such as teaching styles to give students a better exp
 
 ![Front](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3762.jpg)
 ![Back](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3764.jpg)
-![Inside]()
+![Inside](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3765.jpg)
 ## Future Work
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
