@@ -15,6 +15,8 @@ Knowing what background students are coming from is important. Our makerspace is
 adjust things in the space such as teaching styles to give students a better experience.
 
 ![Front](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3762.jpg)
+![Back](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3764.jpg)
+![Inside]()
 ## Future Work
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
