@@ -14,7 +14,7 @@ We may also be able to analyze and predict traffic trends around things such as 
 Knowing what background students are coming from is important. Our makerspace is open to everyone on campus so being able to 
 adjust things in the space such as teaching styles to give students a better experience.
 
-##Future Work
+## Future Work
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
 sequentially put in a school and then a reason. This does stop someone from macilisly spamming the buttons, however does 
