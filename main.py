@@ -1,9 +1,10 @@
 import base64
+import json
+import requests
 from gpiozero import Button
-from github import Github
-from github import InputGitTreeElement
 import csv
 import datetime
+
 
 #Create Buttons with corresponding GPIO Pins
 ##############
@@ -78,8 +79,38 @@ def spreadSheet(schoolName, reasonVisit):
         user_writer.writerow([datetime.datetime.now(),schoolName,reasonVisit])
 
 
+def push_to_github():
+    token = "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"
+    filename = "users.csv"
+    repo = "Jarob-H/userAutomation"
+    branch = "master"
+
+
+    url="https://api.github.com/repos/"+repo+"/contents/"+filename
+
+    base64content=base64.b64encode(open(filename,"rb").read())
+
+    data = requests.get(url+'?ref='+branch, headers = {"Authorization": "token "+token}).json()
+    sha = data['sha']
+
+    if base64content.decode('utf-8')+"\n" != data['content']:
+        message = json.dumps({"message":"update",
+                            "branch": branch,
+                            "content": base64content.decode("utf-8") ,
+                            "sha": sha
+                            })
+
+        resp=requests.put(url, data = message, headers = {"Content-Type": "application/json", "Authorization": "token "+token})
+
+        print(resp)
+    else:
+        print("nothing to update")
+
+
+
 def main():
     spreadSheet('ecs','printing')
+    push_to_github()
 
 if __name__ == "__main__":
     main()
