@@ -44,4 +44,5 @@ of user data.
 | Username   |Contribution|Linkedin|Github Link ↘️                |
 |------------|---|------|---------------------------|
 |Jarob Heffner|Code|www.linkedin.com/in/jarob-heffner-85a880142/|www.github.com/Jarob-H|
+|Ryan Farrell|STL design|https://www.linkedin.com/in/ryan-farrell-/
 |Corey Valenti|UI Development|www.linkedin.com/in/corey-valenti-1aba79193//|www.github.com/CoreyValenti|
