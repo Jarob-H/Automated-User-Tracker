@@ -14,7 +14,7 @@ We may also be able to analyze and predict traffic trends around things such as 
 Knowing what background students are coming from is important. Our makerspace is open to everyone on campus so being able to 
 adjust things in the space such as teaching styles to give students a better experience.
 
-![Front](IMG_3762.jpg)
+![Front](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3762.jpg)
 ## Future Work
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
