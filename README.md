@@ -14,7 +14,16 @@ We may also be able to analyze and predict traffic trends around things such as 
 Knowing what background students are coming from is important. Our makerspace is open to everyone on campus so being able to 
 adjust things in the space such as teaching styles to give students a better experience.
 
+## Design
+Our desing choice was a simple box with two sets of buttons for the different school's on campus and the reason of visit.
+The reason for this choice was in the past when we had complex sign-in methods such as a form that required a lot of 
+fields to fill in it was difficult to get students to sign in. Our goal with the design was to keep it simple.
+
 ![Front](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3762.jpg)
+
+The Raspberry Pi had a custom spot inside the box that allowed the box to be plugged into power and perpials without the
+need to take apart the box.
+
 ![Back](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3764.jpg)
 ![Inside](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3765.jpg)
 ## Future Work
