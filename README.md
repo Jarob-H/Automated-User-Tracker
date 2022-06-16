@@ -25,6 +25,9 @@ The Raspberry Pi had a custom spot inside the box that allowed the box to be plu
 need to take apart the box.
 
 ![Back](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3764.jpg)
+
+On The inside the PI sits in the corner. 
+
 ![Inside](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3765.jpg)
 ## Future Work
 
