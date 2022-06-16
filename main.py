@@ -80,7 +80,7 @@ def spreadSheet(schoolName, reasonVisit):
 
 
 def push_to_github():
-    token = "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"
+    token = "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"
     filename = "users.csv"#we only want to push the csv
     repo = "Jarob-H/userAutomation"#repo we are pushing to
     branch = "master"#branch we are pushing to
@@ -106,12 +106,11 @@ def push_to_github():
         print("nothing to update")
 
 def main():
-    spreadSheet('ecs','printing')
+    spreadSheet(school(),reason())
     push_to_github()
 
 if __name__ == "__main__":
     main()
-
 
 
 
