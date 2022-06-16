@@ -50,7 +50,7 @@ def school():
             break
     return schoolName
 
-def reason(schoolName):
+def reason():
     reason = ""
     while True:
         if Study.is_pressed:
