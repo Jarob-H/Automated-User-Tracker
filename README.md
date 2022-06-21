@@ -11,15 +11,15 @@ The project collects three important pieces of data:
 ## Data
 Collecting data is important because it will allow us to identify and analyze trends and 
 
-###Time/Date: 
+### Time/Date: 
 Gathering time will allow us to understand when students are using the space which will allow us to better schedule employees
 to meet the demand.
 
-###School:
+### School:
 Knowing what background students are coming from is important. Our makerspace is open to everyone on campus so being able to 
 adjust things in the space such as teaching styles to give students a better experience.
 
-###Reason:
+### Reason:
 Knowing which equipment is being utilized will allow us to know which equipment to upgrade and expand.We will also be able
 to analyze which workshops are popular and increase their frequency if needed.
 
