@@ -3,7 +3,8 @@ import json
 import requests
 from gpiozero import Button
 import csv
-import datetime
+from datetime import datetime
+import time
 
 
 #Create Buttons with corresponding GPIO Pins
@@ -52,7 +53,8 @@ def school():
 
 def reason():
     reason = ""
-    while True:
+    t_end = time.time() + 3#loop will run for 3 seconds
+    while time.time() < t_end:
         if Study.is_pressed:
             reason = "Study"
             break
@@ -71,16 +73,18 @@ def reason():
         elif Workshop.is_pressed:
             reason = "Workshop"
             break
+    else:
+        reason="Other"
     return reason
 
 def spreadSheet(schoolName, reasonVisit):
     with open('users.csv', mode='a') as user:
         user_writer = csv.writer(user, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        user_writer.writerow([datetime.datetime.now(),schoolName,reasonVisit])
+        user_writer.writerow([datetime.now().strftime("%m-%d-%Y"),datetime.now().strftime("%H:%M"),schoolName,reasonVisit])
 
 
 def push_to_github():
-    token = ""
+    token = "enter token here"#do not upload with actual key
     filename = "users.csv"#we only want to push the csv
     repo = "Jarob-H/userAutomation"#repo we are pushing to
     branch = "master"#branch we are pushing to
@@ -106,8 +110,9 @@ def push_to_github():
         print("nothing to update")
 
 def main():
-    spreadSheet(school(),reason())
-    push_to_github()
+    while True:
+        spreadSheet(school(),reason())
+        push_to_github()
 
 if __name__ == "__main__":
     main()
