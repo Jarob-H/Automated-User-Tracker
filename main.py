@@ -80,7 +80,7 @@ def spreadSheet(schoolName, reasonVisit):
 
 
 def push_to_github():
-    token = "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"
+    token = ""
     filename = "users.csv"#we only want to push the csv
     repo = "Jarob-H/userAutomation"#repo we are pushing to
     branch = "master"#branch we are pushing to
