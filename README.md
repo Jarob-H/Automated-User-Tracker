@@ -8,11 +8,20 @@ The project collects three important pieces of data:
 * Which DU school they are associated with 
 * What is their reason of visit
 
-This data is important because it will us understand things such as what time and day of the week the space is most utilize.
-We may also be able to analyze and predict traffic trends around things such as projects and finals. 
+## Data
+Collecting data is important because it will allow us to identify and analyze trends and 
 
+###Time/Date: 
+Gathering time will allow us to understand when students are using the space which will allow us to better schedule employees
+to meet the demand.
+
+###School:
 Knowing what background students are coming from is important. Our makerspace is open to everyone on campus so being able to 
 adjust things in the space such as teaching styles to give students a better experience.
+
+###Reason:
+Knowing which equipment is being utilized will allow us to know which equipment to upgrade and expand.We will also be able
+to analyze which workshops are popular and increase their frequency if needed.
 
 ## Design
 Our design choice was a simple box with two sets of buttons for the different school's on campus and the reason of visit.
@@ -36,7 +45,6 @@ To create the box we turned the STl/3MF file from Solidworks into a file type th
 then laser cut the box completely out of one sheet of wood. 
 
 ## Future Work
-
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
 sequentially put in a school and then a reason. This does stop someone from macilisly spamming the buttons, however does 
 not verify that each input is indeed a unique user. 
@@ -46,7 +54,9 @@ to spam a button the program can then throw out duplicates.
 
 By implementing an ID system we also open up the possibility of creating a system that remembers a user and then that user 
 does not need to press the buttons each time. Using an ID system however creates new challenges such as the proper storage 
-of user data. 
+of user data.
+
+We would also like to add a green and red LED so users are able to tell if their entry was successful.
 
 ## Collaborators
 
