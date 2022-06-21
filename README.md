@@ -3,13 +3,14 @@
 The goal of his project was to create an easy way for the University of Denver's Makerspace to track how many 
 users are coming into the space. 
 
-The project collects three important pieces of data:
-* Time and date
-* Which DU school they are associated with 
-* What is their reason of visit
-
 ## Data
-Collecting data is important because it will allow us to identify and analyze trends and 
+Collecting data is important because it will allow us to identify and analyze trends, and to easily present our usage statistics when 
+needed.
+
+The project collects three important pieces of data:
+* Time and date the user enters the lab 
+* Which School or College inside of the University of Denver the user is associated with 
+* What is the user reason of visit the lab
 
 ### Time/Date: 
 Gathering time will allow us to understand when students are using the space which will allow us to better schedule employees
