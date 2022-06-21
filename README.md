@@ -29,6 +29,12 @@ need to take apart the box.
 On The inside the PI sits in the corner. 
 
 ![Inside](https://github.com/Jarob-H/userAutomation/blob/master/Project%20Pictures/IMG_3765.jpg)
+
+## Fabrication
+
+To create the box we turned the STl/3MF file from Solidworks into a file type that could easily be Laser engraved. We 
+then laser cut the box completely out of one sheet of wood. 
+
 ## Future Work
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
@@ -46,6 +52,6 @@ of user data.
 
 | Username   |Contribution|Linkedin|Github Link ↘️                |
 |------------|---|------|---------------------------|
-|Jarob Heffner|Code|www.linkedin.com/in/jarob-heffner-85a880142/|www.github.com/Jarob-H|
+|Jarob Heffner|Code Development|www.linkedin.com/in/jarob-heffner-85a880142/|www.github.com/Jarob-H|
 |Ryan Farrell|STL design|https://www.linkedin.com/in/ryan-farrell-/
-|Corey Valenti|UI Development|www.linkedin.com/in/corey-valenti-1aba79193//|www.github.com/CoreyValenti|
+|Corey Valenti|Code Development|www.linkedin.com/in/corey-valenti-1aba79193//|www.github.com/CoreyValenti|
