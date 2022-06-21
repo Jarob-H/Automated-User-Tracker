@@ -15,7 +15,7 @@ Knowing what background students are coming from is important. Our makerspace is
 adjust things in the space such as teaching styles to give students a better experience.
 
 ## Design
-Our desing choice was a simple box with two sets of buttons for the different school's on campus and the reason of visit.
+Our design choice was a simple box with two sets of buttons for the different school's on campus and the reason of visit.
 The reason for this choice was in the past when we had complex sign-in methods such as a form that required a lot of 
 fields to fill in it was difficult to get students to sign in. Our goal with the design was to keep it simple.
 
@@ -39,9 +39,9 @@ then laser cut the box completely out of one sheet of wood.
 
 Our error handling and verification is not perfect and should be improved on. Currently, our program forces the user to 
 sequentially put in a school and then a reason. This does stop someone from macilisly spamming the buttons, however does 
-not verify that each input is indeed an unique user. 
+not verify that each input is indeed a unique user. 
 
-To combat this in the future I would also like to implement an RFID scanner that checks an user ID. If a person tries then 
+To combat this in the future I would also like to implement an RFID scanner that checks a user ID. If a person tries then 
 to spam a button the program can then throw out duplicates.
 
 By implementing an ID system we also open up the possibility of creating a system that remembers a user and then that user 
@@ -53,5 +53,5 @@ of user data.
 | Username   |Contribution|Linkedin ![img.png](https://img.icons8.com/color/40/linkedin.png)|Github Link ↘️|
 |------------|---|------|---------------------------|
 |Jarob Heffner|Code Development|www.linkedin.com/in/jarob-heffner-85a880142/|www.github.com/Jarob-H|
-|Ryan Farrell|CAD and Electrical Design|https://www.linkedin.com/in/ryan-farrell-/
+|Ryan Farrell|CAD and Electrical Design|https://www.linkedin.com/in/ryan-farrell-/|https://github.com/ryanfarrell987|
 |Corey Valenti|Code Development|www.linkedin.com/in/corey-valenti-1aba79193//|www.github.com/CoreyValenti|
