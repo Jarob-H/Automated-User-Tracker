@@ -50,8 +50,8 @@ of user data.
 
 ## Collaborators
 
-| Username   |Contribution|Linkedin|Github Link ↘️                |
+| Username   |Contribution|Linkedin ![img.png](https://img.icons8.com/color/40/linkedin.png)|Github Link ↘️|
 |------------|---|------|---------------------------|
 |Jarob Heffner|Code Development|www.linkedin.com/in/jarob-heffner-85a880142/|www.github.com/Jarob-H|
-|Ryan Farrell|STL design|https://www.linkedin.com/in/ryan-farrell-/
+|Ryan Farrell|CAD and Electrical Design|https://www.linkedin.com/in/ryan-farrell-/
 |Corey Valenti|Code Development|www.linkedin.com/in/corey-valenti-1aba79193//|www.github.com/CoreyValenti|
