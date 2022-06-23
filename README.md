@@ -1,6 +1,6 @@
 # Automated User Tracker
 
-The goal of his project was to create an easy way for the University of Denver's Makerspace to track how many 
+The goal of This project was to create an easy way for the University of Denver's Makerspace to track how many 
 users are coming into the space. 
 
 ## Data
