@@ -12,7 +12,7 @@ The project collects three important pieces of data:
 * Which School or College inside of the University of Denver the user is associated with 
 * What is the user reason of visit the lab
 
-### Time/Date: 
+###Time/Date: 
 Gathering time will allow us to understand when students are using the space which will allow us to better schedule employees
 to meet the demand.
 

@@ -5,6 +5,8 @@ from gpiozero import Button
 import csv
 from datetime import datetime
 import time
+from gpiozero import LED
+from time import sleep
 
 
 #Create Buttons with corresponding GPIO Pins
@@ -12,6 +14,7 @@ import time
 ##  School  ##
 ##############
 ECS = Button(6)
+green=LED(12)
 Daniels = Button(26)
 JK = Button(19)
 Grad = Button(4)
@@ -84,7 +87,7 @@ def spreadSheet(schoolName, reasonVisit):
 
 
 def push_to_github():
-    token = "enter token here"#do not upload with actual key
+    token = ""
     filename = "users.csv"#we only want to push the csv
     repo = "Jarob-H/userAutomation"#repo we are pushing to
     branch = "master"#branch we are pushing to
@@ -104,7 +107,10 @@ def push_to_github():
                             })
 
         resp=requests.put(url, data = message, headers = {"Content-Type": "application/json", "Authorization": "token "+token})
-
+        if "<Response [200]>" in str(resp) :
+            green.on()
+            sleep(1)
+            green.off()
         print(resp)
     else:
         print("nothing to update")
@@ -116,6 +122,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
